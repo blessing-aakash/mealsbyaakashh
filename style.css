@@ -1,0 +1,294 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul li a {
+    /* color: white; */
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 70px;
+    color: black;
+}
+
+#navbar img {
+    height: 150px;
+    margin: 50px;
+    border-radius: 35px;
+}
+
+#nav {
+    display: flex;
+    margin-top: 5px;
+    list-style: none;
+
+}
+
+.item a {
+    text-decoration: none;
+    margin: 50px;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 100px;
+
+}
+
+.item a:hover {
+    color: black;
+    font-family: fantasy;
+    background-color: white;
+
+}
+
+
+/* Home Section */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    /* height: 633px; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+#home {
+    content: "";
+    position: absolute;
+    height: 70vh;
+    width: 75vw;
+    z-index: -4;
+    opacity: 0.93;
+}
+
+#home h1 {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family: cursive;
+}
+
+#home p {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+
+/* SERVICE SECTIONN */
+#services {
+    margin: 60px;
+    padding: 50px;
+    display: flex;
+    margin-top: 300px;
+    font-size: 200px;
+
+
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 150px;
+    margin: 15px 20px;
+    border-radius: 23px;
+    background-color: rgb(224, 222, 222);
+    margin-top: -30px;
+}
+
+#services .box img {
+    height: 270px;
+    margin: auto;
+    display: block;
+
+}
+
+#services {}
+
+
+/* CLIENT SECTIONN
+/* #client-section{ */
+/* height: 344px; */
+/* } * */
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url('./images/background-logo.jpg');
+    width: 100%;
+    height: 56%;
+    z-index: -1;
+    opacity: 0.3;
+    margin-left: 10px;
+}
+
+
+
+
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-item {
+    padding: 80px;
+}
+
+
+#clients img {
+    /* height: 404px; */
+}
+
+/* contact section */
+#contact {
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background: url('./images/background\ burger.jpg') no-repeat center center/cover;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+
+}
+
+#contact-box form {
+    width: 20%;
+
+
+}
+
+#contact-box label {
+    font-size: 50px;
+}
+
+
+
+
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    height: 40px;
+
+}
+
+
+
+
+
+
+footer {
+    background: black;
+    background-color: white;
+    margin-top: 600 px;
+    padding: 9px 20px;
+}
+
+
+
+
+#h-primary center {
+    font-size: 2000p;
+}
+
+.client-section {
+    font-size: 1000px;
+}
+
+
+
+
+
+
+
+
+/* UTILITY CLASSES */
+.h1-primary {
+    font-family: cursive;
+
+    font-size: 150px;
+    padding: 15px;
+    margin-top: 2600px;
+    margin-left: 1800px;
+
+}
+
+.h-secondary {
+    font-family: cursive;
+
+    font-size: 5rem;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.btn {
+    padding: 30px 100px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 20px;
+
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 1192px;
+    margin-top: 82px;
+    font-size: 52px;
+}
+
+.center {
+    text-align: center;
+    display: block;
+    font-family: cursive;
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: cursive;
+
+}
+
+
+#img-home {
+    position: relative;
+}
+
+#text-home {
+    position: absolute;
+    margin-left: 850px;
+}
